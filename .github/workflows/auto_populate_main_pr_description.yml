@@ -2,8 +2,7 @@ name: Auto-populate PR description for Main branch
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   set-pr-description:
